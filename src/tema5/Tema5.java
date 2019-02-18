@@ -18,6 +18,10 @@ public class Tema5 {
         
         System.out.println("Tu hipotenusa mide " + hipotenusa);
         
+        computadora dell = new computadora();
+        System.out.println(dell.getValor());
+        computadora.ImprimeValor();
+        
     }
     
     public static double CalcularHipotenusa(double ladoA, double ladoB){
