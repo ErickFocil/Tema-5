@@ -19,8 +19,12 @@ public class Tema5 {
         System.out.println("Tu hipotenusa mide " + hipotenusa);
         
         computadora dell = new computadora();
-        System.out.println(dell.getValor());
-        computadora.ImprimeValor();
+        System.out.println(computadora.contador);
+        computadora asus = new computadora();
+        System.out.println(computadora.contador);
+        computadora hp = new computadora();
+        System.out.println(computadora.contador);
+        
         
     }
     

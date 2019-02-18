@@ -2,7 +2,11 @@ package tema5;
 
 public class computadora {
     private int valor;
-    private static int contador;
+    public static int contador;
+
+    public computadora() {
+        contador++;
+    }
 
     public int getValor() {
         return valor;
