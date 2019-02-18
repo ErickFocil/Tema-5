@@ -25,6 +25,14 @@ public class Tema5 {
         computadora hp = new computadora();
         System.out.println(computadora.contador);
         
+        dell.setMicro(hp);
+        computadora MSI = dell.getMicro();
+        
+        System.out.println(dell);
+        System.out.println(hp);
+        System.out.println(MSI);
+        System.out.println(dell.getMicro());
+        
         
     }
     
